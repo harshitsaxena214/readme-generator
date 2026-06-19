@@ -51,7 +51,7 @@ export function Header() {
             <Wand2 className="h-5 w-5 text-text-dark" />
           </div>
           <span className="text-lg font-bold tracking-tight text-text-dark">
-            README<span className="text-accent-gold">Wizard</span>
+            SUPA<span className="text-accent-gold">DOCS</span>
           </span>
         </button>
 

@@ -11,14 +11,14 @@ export function Footer() {
               <Wand2 className="h-4 w-4 text-text-dark" />
             </div>
             <span className="text-base font-bold tracking-tight text-text-dark">
-              README<span className="text-accent-gold">Wizard</span>
+              SUPA<span className="text-accent-gold">DOCS</span>
             </span>
           </div>
 
           {/* Links */}
           <div className="flex items-center gap-4">
             <a
-              href="https://github.com"
+              href="https://github.com/harshitsaxena214/readme-generator"
               target="_blank"
               rel="noopener noreferrer"
               className="text-text-muted hover:text-text-dark transition-colors"
@@ -27,7 +27,7 @@ export function Footer() {
               <Github className="h-5 w-5" />
             </a>
             <span className="text-xs text-text-muted">
-              © {new Date().getFullYear()} README Wizard
+              © {new Date().getFullYear()} SUPA Docs
             </span>
           </div>
         </div>

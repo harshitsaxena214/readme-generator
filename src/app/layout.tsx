@@ -5,29 +5,38 @@ import { Toaster } from "sonner";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "README Wizard — AI-Powered README.md Generator",
+  title: "SUPA DOCS - AI-Powered README.md Generator",
   description:
     "Generate a complete, professional, and polished README.md for any GitHub repository in seconds using Google Gemini AI.",
   keywords: [
     "README generator",
     "GitHub README",
     "AI documentation writer",
-    "Gemini AI README",
+    "AI README",
     "markdown documentation generator",
   ],
   authors: [{ name: "README Wizard Team" }],
   openGraph: {
-    title: "README Wizard — AI-Powered README.md Generator",
+    title: "SUPA DOCS - AI-Powered README.md Generator",
     description:
       "Generate a complete, professional, and polished README.md for any GitHub repository in seconds using Google Gemini AI.",
     type: "website",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Harshit Saxena - Full Stack Developer",
+      },
+    ],
     locale: "en_US",
   },
   twitter: {
     card: "summary_large_image",
-    title: "README Wizard — AI-Powered README.md Generator",
+    title: "SUPA DOCS - AI-Powered README.md Generator",
     description:
       "Generate a complete, professional, and polished README.md for any GitHub repository in seconds using Google Gemini AI.",
+    images: ["/og-image.png"],
   },
 };
 
