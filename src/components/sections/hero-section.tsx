@@ -121,7 +121,7 @@ export function HeroSection() {
             initial="hidden"
             animate="visible"
             transition={{ delay: 0.3 }}
-            className="relative h-[400px] sm:h-[500px] lg:h-[600px] order-first lg:order-last"
+            className="relative h-[400px] sm:h-[500px] lg:h-[600px] lg:order-last"
           >
             <div className="absolute inset-0 rounded-3xl overflow-hidden">
               <SplineScene scene="https://prod.spline.design/kZDDjO5HuC9GJUM2/scene.splinecode" />

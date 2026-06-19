@@ -24,7 +24,6 @@ export default function Home() {
       }
     : null;
 
-  // Scroll to output section once generation completes successfully
   useEffect(() => {
     if (state.result && !state.isGenerating) {
       setTimeout(() => {

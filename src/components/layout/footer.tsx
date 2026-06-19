@@ -15,13 +15,6 @@ export function Footer() {
             </span>
           </div>
 
-          {/* Center */}
-          <p className="flex items-center gap-1.5 text-sm text-text-muted">
-            Made with <Heart className="h-3.5 w-3.5 text-red-400 fill-red-400" /> using
-            <span className="font-medium text-text-dark">Next.js</span> &
-            <span className="font-medium text-text-dark">Google Gemini</span>
-          </p>
-
           {/* Links */}
           <div className="flex items-center gap-4">
             <a
