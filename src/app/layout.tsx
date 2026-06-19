@@ -15,7 +15,8 @@ export const metadata: Metadata = {
     "AI README",
     "markdown documentation generator",
   ],
-  authors: [{ name: "README Wizard Team" }],
+  authors: [{ name: "Harshit Saxena" }],
+  metadataBase: new URL("https://supadocs.vercel.app"),
   openGraph: {
     title: "SUPA DOCS - AI-Powered README.md Generator",
     description:
