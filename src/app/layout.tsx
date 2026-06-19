@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { headingFont, bodyFont, monoFont } from "./fonts";
 import { QueryProvider } from "@/components/providers/query-provider";
 import { Toaster } from "sonner";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -54,6 +55,7 @@ export default function RootLayout({
       <body className="min-h-full flex flex-col bg-cream text-text-dark selection:bg-warm-yellow/40 selection:text-text-dark">
         <QueryProvider>{children}</QueryProvider>
         <Toaster position="bottom-right" richColors />
+        <Analytics />
       </body>
     </html>
   );
